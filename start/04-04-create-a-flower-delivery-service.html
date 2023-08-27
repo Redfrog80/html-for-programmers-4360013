@@ -9,7 +9,57 @@
 </head>
 
 <body>
-  
+  <!--Form container-->
+  <div>
+    <form action="" method="post">
+      <div>
+        <h2>Recipient Details</h2>
+        <label for="r-full-name">Full Name</label>
+        <br>
+        <input type="text" id="r-full-name" , placeholder="John Doe">
+        <br>
+        <label for="r-tel">Telephone Number</label>
+        <br>
+        <input type="tel" id="r-tele" , placeholder="(xxx) xxx-xxxx">
+        <br>
+        <label for="r-addr">Telephone Number</label>
+        <br>
+        <input type="address" id="r-addr" , placeholder="street name, city, state">
+        <br>
+      </div>
+
+
+      <div>
+        <h2>Sender Details</h2>
+        <label for="s-full-name">Full Name</label>
+        <br>
+        <input type="text" id="s-full-name" , placeholder="John Doe">
+        <br>
+        <label for="s-addr">Telephone Number</label>
+        <br>
+        <input type="address" id="s-addr" , placeholder="street name, city, state">
+        <br>
+      </div>
+
+
+      <div>
+        <h2>Order</h2>
+        <label for="bosuquet-type">Bouquet Type</label>
+        <br>
+        <select name="bouquet-type" id="bouquet-type">
+          <option value="bouquet_basic">Basic Bouquet - $24.99</option>
+          <option value="bouquet_premium">Premium Bouquet - $49.99</option>
+          <option value="bouquet_premium_chocolate">Premium Bouquet + Chocolate - $69.99</option>
+        </select>
+        <br>
+        
+        <label for="user-message"></label>
+        <textarea type="text" name="message" id="user-message"></textarea>
+        <br>
+        <button type="checkout">Checkout</button>
+      </div>
+    </form>
+  </div>
 </body>
 
 </html>

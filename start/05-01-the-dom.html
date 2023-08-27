@@ -20,7 +20,12 @@
   </header>
   
   <script>
-    
+    const header = document.querySelector('#header');
+    const nav = header.childNodes[1];
+    const list = nav.childNodes[1];
+    const firstlistitem = list.childNodes[1]
+    const firstlink = firstlistitem.childNodes[0];
+    console.log(firstlink);
   </script>
 </body>
 
